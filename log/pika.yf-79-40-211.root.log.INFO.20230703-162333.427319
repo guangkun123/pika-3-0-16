@@ -1,0 +1,19 @@
+Log file created at: 2023/07/03 16:23:33
+Running on machine: yf-79-40-211
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0703 16:23:33.437845 427319 pika.cc:187] Server at: conf/pika.conf
+I0703 16:23:33.438154 427319 pika_server.cc:194] Using Networker Interface: eth4
+I0703 16:23:33.442045 427319 pika_server.cc:237] host: 10.79.40.211 port: 9221
+I0703 16:23:33.442108 427319 pika_server.cc:68] Prepare Blackwidow DB...
+I0703 16:23:33.471884 427319 pika_server.cc:73] DB Success
+I0703 16:23:33.471915 427319 pika_server.cc:89] Worker queue limit is 20100
+I0703 16:23:33.472280 427319 pika_binlog.cc:120] Binlog: Find the exist file.
+I0703 16:23:33.472365 427319 pika_server.cc:110] double recv info: filenum 0 offset 0
+I0703 16:23:33.487948 427319 pika_server.cc:352] Pika Server going to start
+I0703 16:23:40.489562 427319 pika_server.cc:361] Goodbye...
+I0703 16:23:45.493700 427319 pika_dispatch_thread.cc:25] dispatch thread 140736993412864 exit!!!
+I0703 16:23:46.492389 427319 pika_trysync_thread.cc:28]  Trysync thread 140736968234752 exit!!!
+I0703 16:23:46.494971 427319 pika_binlog_receiver_thread.cc:28] BinlogReceiver thread 140736985020160 exit!!!
+I0703 16:23:47.498893 427319 pika_heartbeat_thread.cc:24] PikaHeartbeat thread 140736976627456 exit!!!
+I0703 16:23:47.498996 427319 pika_monitor_thread.cc:35]  PikaMonitorThread 140737353984512 exit!!!
+I0703 16:23:47.502583 427319 pika_server.cc:159] PikaServer 140737353984512 exit!!!

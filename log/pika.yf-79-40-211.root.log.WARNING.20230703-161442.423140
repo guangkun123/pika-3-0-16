@@ -1,0 +1,5 @@
+Log file created at: 2023/07/03 16:14:42
+Running on machine: yf-79-40-211
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0703 16:14:42.490257 423155 pika_client_conn.cc:74] 'shutdown' should be localhost
+W0703 16:16:40.388029 423154 pika_client_conn.cc:74] 'shutdown' should be localhost

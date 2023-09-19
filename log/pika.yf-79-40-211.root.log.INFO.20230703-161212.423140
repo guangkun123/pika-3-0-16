@@ -1,0 +1,14 @@
+Log file created at: 2023/07/03 16:12:12
+Running on machine: yf-79-40-211
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0703 16:12:12.856525 423140 pika.cc:187] Server at: conf/pika.conf
+I0703 16:12:12.856889 423140 pika_server.cc:194] Using Networker Interface: eth4
+I0703 16:12:12.861447 423140 pika_server.cc:237] host: 10.79.40.211 port: 9221
+I0703 16:12:12.861492 423140 pika_server.cc:68] Prepare Blackwidow DB...
+I0703 16:12:12.915380 423140 pika_server.cc:73] DB Success
+I0703 16:12:12.915414 423140 pika_server.cc:89] Worker queue limit is 20100
+I0703 16:12:12.915776 423140 pika_binlog.cc:103] Binlog: Manifest file not exist, we create a new one.
+I0703 16:12:12.915863 423140 pika_server.cc:110] double recv info: filenum 0 offset 0
+I0703 16:12:12.931236 423140 pika_server.cc:352] Pika Server going to start
+W0703 16:14:42.490257 423155 pika_client_conn.cc:74] 'shutdown' should be localhost
+W0703 16:16:40.388029 423154 pika_client_conn.cc:74] 'shutdown' should be localhost
